@@ -334,7 +334,7 @@ export default function Home() {
             id="form"
           >
             <div>
-              <label htmlFor="color">Renk:</label>
+              <label htmlFor="color">اللون</label>
               <select
                 id="color"
                 name="color"
@@ -350,7 +350,7 @@ export default function Home() {
               </select>
             </div>
             <div>
-              <label htmlFor="size">Beden:</label>
+              <label htmlFor="size">المقاس</label>
               <select
                 id="size"
                 name="size"
@@ -372,7 +372,7 @@ export default function Home() {
                 id="quantity"
                 name="quantity"
                 min="1"
-                placeholder="Miktar"
+                placeholder="الكميه"
                 onChange={ handleChange }
                 value={ formData.quantity }
               />
@@ -382,7 +382,7 @@ export default function Home() {
                 type="tel"
                 id="phone"
                 name="phone"
-                placeholder="Telefon Numarası"
+                placeholder="رقم الهاتف *"
                 onChange={ handleChange }
                 value={ formData.phone }
               />
@@ -392,7 +392,7 @@ export default function Home() {
                 type="text"
                 id="address"
                 name="address"
-                placeholder="Adres"
+                placeholder="العنوان بالتفصيل"
                 onChange={ handleChange }
                 value={ formData.address }
               />
@@ -401,7 +401,7 @@ export default function Home() {
               <textarea
                 id="additionalInfo"
                 name="additionalInfo"
-                placeholder="Ek Bilgi"
+                placeholder="ملاحظات اضافيه اذا وجد"
                 onChange={ handleChange }
                 value={ formData.additionalInfo }
               ></textarea>
