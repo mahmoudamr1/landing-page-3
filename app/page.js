@@ -110,11 +110,11 @@ export default function Home() {
     },
     {
       title: 'ما هو لون طقم السويت شيرت؟',
-      content: 'طقم السويت شيرت للنساء بتصميم باربي متوفر بلون وردي زاهي وجاذب.'
+      content: 'طقم السويت شيرت للنساء بتصميم القطه متوفر بلون الاسود والرمادي .'
     },
     {
       title: 'ما نوع الطباعة المستخدمة في هذا المنتج؟',
-      content: 'هذا المنتج يتميز بتصميم خاص يعبر عن موضوع باربي الشهير.'
+      content: 'هذا المنتج يتميز بتصميم قطه بشكل مميز وجذاب .'
     },
     {
       title: 'كيفية تنظيف طقم السويت شيرت؟',
@@ -342,10 +342,10 @@ export default function Home() {
                 value={ formData.color }
               >
                 <option value="black" style={ { backgroundColor: 'black' } }>
-                  Siyah
+                  الاسود
                 </option>
                 <option value="gray" style={ { backgroundColor: 'gray' } }>
-                  Gri
+                  الرمادي
                 </option>
               </select>
             </div>
