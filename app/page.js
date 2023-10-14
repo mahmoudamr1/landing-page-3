@@ -409,7 +409,7 @@ export default function Home() {
 
             <div>
               <button type="button" onClick={ handleSubmit } id="submit" >
-                Sepete Ekle
+                الشراء الان
                 { loading && (
                   <ImSpinner9 className="animate-spin ml-2" />
                 ) }
